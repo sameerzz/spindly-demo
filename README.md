@@ -1,3 +1,5 @@
+# Purpose 
+This repo is to teach students basics of chatbot and how one can embed it in their working website.
 # vinext-starter
 
 A clean full-stack starter running on
