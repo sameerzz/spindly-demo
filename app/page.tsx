@@ -1,3 +1,4 @@
+import SpendlyChatbot from "../SpendlyChatbot";
 const transactions = [
   { icon: "N", merchant: "Notion", category: "Software", amount: "$18.00", tone: "lilac" },
   { icon: "F", merchant: "Figma", category: "Design", amount: "$24.00", tone: "coral" },
@@ -56,6 +57,7 @@ export default function Home() {
 
       <section className="cta" id="get-started"><div className="shell"><span className="kicker kicker-light">Ready when you are</span><h2>Make every dollar<br />work <em>harder.</em></h2><p>Join 2,000+ teams making smarter spending decisions with Spendly.</p><a className="button button-gold" href="mailto:hello@spendly.example">Get started for free <span>↗</span></a><small>No credit card required · Set up in minutes</small></div></section>
       <footer className="footer shell" id="pricing"><a className="brand" href="#home"><span className="brand-mark"><i /><i /><i /></span><span>spendly</span></a><p>Smarter company spending,<br />from swipe to close.</p><div><a href="#product">Product</a><a href="#security">Security</a><a href="#get-started">Contact</a></div><small>© 2026 Spendly. All rights reserved.</small></footer>
+      <SpendlyChatbot />
     </main>
   );
 }

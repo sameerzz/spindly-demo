@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useRef, useEffect, useCallback, useMemo } from "react";
 import { MessageCircle, X, Send, CreditCard, LifeBuoy, ShieldCheck } from "lucide-react";
 
